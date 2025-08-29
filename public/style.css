@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e1ebf1;
+    color: #0f1419;
+    padding: 20px;
+
+}
+h1 {
+   font-size: 28px;
+   margin: 10px auto 20px ;
+   max-width: 720px;
+   text-align: center;
+}
+.feed {
+    max-width: 720px;
+    margin: 0 auto;
+    display: grid;
+    gap: 15px;
+}
+
+.post {
+    background: #e1ebf1;
+    border:1px solid #454a55 ;
+    border-radius: 16px;
+    padding: 15px;
+    transition: 0.2s;
+}
+
+.post:hover {
+    transform:translateY(-2px);
+    box-shadow: 0 4px 12px rgba(27, 27, 27, 0.3);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background:#88bee2;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+}
+.username{
+    font-weight: bold;
+    font-size: 5px;
+}
+.handle {
+    font-size:13px ;
+    color: #9aa4af; 
+}
+
+
+.content {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.btn {
+  border: 1px solid #2c2f36;
+  background: #4d5870;
+  color: #e6e9ec;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn:hover { 
+    background: #5c6c92;
+ }
+.btn-primary {
+  background: #6eb3e0;
+  border: none;
+  color: #fff;
+}
+.btn-danger {
+  background: #ef4444;
+  border: none;
+  color: #fff;
+}
+
+ .new-post{
+  display: block;
+  width: fit-content;
+  margin: 28px auto 0;
+}
+      
+
+.form1 {
+    background:#f1f2f3 ;
+    padding: 20px ;
+    border-radius: 10px;
+    box-shadow: 2px solid black;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin:4px 0;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 14px;
+}
+textarea {
+    resize: none;
+    height:  100px ;
+
+}
+h2 {
+   text-align:center ;
+   margin-bottom: 5px;
+   color: rgb(70, 69, 69);
+
+}
+ 
